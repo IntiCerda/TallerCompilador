@@ -8,8 +8,8 @@
         "args": [],
         "stopAtEntry": false,
         "externalConsole": true,
-        "cwd": "c:/ruta/a/tu/proyecto", // Cambia esto a tu directorio de trabajo
-        "program": "c:/ruta/a/tu/proyecto/mi_programa", 
+        "cwd": "C:\\Users\\Inti\\Documents\\GitHub\\TallerCompilador", 
+        "program": "C:\\Users\\Inti\\Documents\\GitHub\\TallerCompilador\\mi_programa.exe", 
         "MIMode": "gdb",
         "miDebuggerPath": "gdb",
         "setupCommands": [
