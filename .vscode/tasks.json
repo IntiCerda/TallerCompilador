@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Bison",
+            "type": "shell",
+            "command": "bison",
+            "args": ["-d", "parser.y"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Run Flex",
+            "type": "shell",
+            "command": "flex",
+            "args": ["lexer.l"],
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Compile C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "mi_programa", 
+                "main.cpp", 
+                "parser.tab.c", 
+                "lex.yy.c"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

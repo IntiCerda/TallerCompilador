@@ -1,0 +1,88 @@
+aer(1 + 2):🔥aer(5 + 10):🔥aer(100 + 200):🔥aer(3 + 3 + 3):🔥
+
+// Comentario de una sola línea
+aer(10 - 5):🔥
+aer(100 - 50):🔥
+aer(200 - 100):🔥
+aer(10 - 5 - 2):🔥
+
+aer(2 * 3):🔥
+aer(5 * 5):🔥
+aer(10 * 10):🔥
+aer(2 * 3 * 4):🔥
+
+aer(10 / 2):🔥
+aer(100 / 5):🔥
+aer(200 / 10):🔥
+aer(100 / 5 / 2):🔥
+
+aer(10 / (2 + 3)):🔥
+aer(2 * (3 + 5) - 10):🔥 
+aer((10 + 2) / 3 * 4):🔥
+
+aer(500):🔥
+aer((100+50)/(50-25*(2+(1+1)))):🔥
+
+x = 20:🔥
+y = 20:🔥
+aer(x):🔥
+aer(x + y):🔥
+aer(x - y):🔥
+aer(x * y):🔥
+aer(x / y):🔥
+
+w = true:🔥
+z = false:🔥
+aer(w):🔥
+aer(z):🔥
+aer(w && z):🔥
+aer(w || z):🔥
+aer(!w):🔥
+aer(!z):🔥
+
+v = "string":🔥
+
+aer(v):🔥
+aer("otro string"):🔥
+aer():🔥
+
+a = true:🔥
+b = false:🔥
+c = 5:🔥
+
+when (a && b) {
+    aer("a && b"):🔥
+} but {
+    aer("when haces tus momos en tu compilador"):🔥
+}
+when (a || b) {
+    aer("but te reprueban el ramo :'v"):🔥
+}
+when (c < 3) {
+    aer(c):🔥
+}
+when (c <= 7) {
+    aer(c+3):🔥
+}
+when (c == 5) {
+    aer(c+1):🔥
+}
+
+// Ejemplo de programa
+floatVar = 5.5:🔥
+intVar = 10:🔥
+strVar = "Hola, ":🔥
+boolVar = true:🔥
+
+resultadoSuma = floatVar + intVar:🔥  // Operación con float y int
+resultadoResta = intVar - 2:🔥
+resultadoConcat = strVar + "mundo!":🔥
+resultadoMultiplicacion = floatVar * 2.0:🔥
+resultadoDivision = intVar / floatVar:🔥
+
+aer(resultadoSuma):🔥         // Imprime 15.5
+aer(resultadoResta):🔥        // Imprime 8
+aer(resultadoConcat):🔥       // Imprime "Hola, mundo!"
+aer(resultadoMultiplicacion):🔥 // Imprime 11.0
+aer(resultadoDivision):🔥     // Imprime 1.81818181818
+aer(boolVar):🔥               // Imprime true
