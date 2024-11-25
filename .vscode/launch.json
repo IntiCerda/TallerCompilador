@@ -9,7 +9,7 @@
         "stopAtEntry": false,
         "externalConsole": true,
         "cwd": "C:\\Users\\Inti\\Documents\\GitHub\\TallerCompilador", 
-        "program": "C:\\Users\\Inti\\Documents\\GitHub\\TallerCompilador\\mi_programa.exe", 
+        "program": "C:\\Users\\Inti\\Documents\\GitHub\\TallerCompilador\\TallerCompilador.exe", 
         "MIMode": "gdb",
         "miDebuggerPath": "gdb",
         "setupCommands": [
